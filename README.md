@@ -58,9 +58,28 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+![WhatsApp Image 2024-12-03 at 10 03 31_8a6c23b3](https://github.com/user-attachments/assets/c9b1633f-a5e1-45dc-8f35-a2d1c9640b3f)
+
 
 ## PROGRAM
+'''
+int relayPin=6; 
+#define interval 2000 
+void setup() { 
+pinMode(relayPin, OUTPUT); 
+} 
+void loop() 
+{ 
+digitalWrite(relayPin, HIGH); 
+delay(interval); 
+digitalWrite(relayPin, LOW); 
+delay(interval); 
+}
+'''
 
 ## OUTPUT
+![WhatsApp Image 2024-12-03 at 10 03 30_9d951fb6](https://github.com/user-attachments/assets/56eee42e-2da6-40da-8964-9f13bfe7b5b2)
+
 
 ## RESULT
+The LED control system using Arduino and push button was successfully implemented and simulated in Proteus.
